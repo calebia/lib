@@ -1,6 +1,6 @@
 # Biblioteca
 
-Biblioteca de algoritmos, estruturas de dados e primitivas para Maratona de Programação da UFMG.
+Biblioteca de algoritmos, estruturas de dados e primitivas para Maratona de Programação. O repositorio foi praticamente 100% clonado da UFMG, com todos os creditos reservados (incluindo o resto do readme). 
 
 Códigos em C++, em maior parte implementados pelos alunos da universidade.
 
@@ -275,5 +275,6 @@ Para ver o hash no vim, seleciona as linhas com `Shift+v`, e aperta `Ctrl+h`.
 - [Template C++](https://github.com/brunomaletta/Biblioteca/blob/master/Codigo/Extra/template.cpp)
 - [Timer](https://github.com/brunomaletta/Biblioteca/blob/master/Codigo/Extra/timer.cpp)
 - [vimrc](https://github.com/brunomaletta/Biblioteca/blob/master/Codigo/Extra/vimrc)
-#   l i b  
+#   l i b 
+ 
  
