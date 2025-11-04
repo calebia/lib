@@ -2,8 +2,8 @@
 
 # Provide default values
 : ${TEAMNAME:="L_Dies"}
-: ${MEMBERS:="Emanuel Silva, Bruno Monteiro \\& Rafael Grandsire"}
-: ${UNIVERSITY:="UFMG"}
+: ${MEMBERS:="Nivea"}
+: ${UNIVERSITY:="UFCG"}
 
 cat > env.tex <<EOF
 \def\teamname{$TEAMNAME}
@@ -12,12 +12,12 @@ cat > env.tex <<EOF
 EOF
 
 g++ -std=c++17 -o getlatex getlatex.cpp -O2
-./getlatex $1 > biblioteca.tex
-rubber -d biblioteca
-mv biblioteca.pdf ../pdf
+./getlatex $1 > lib.tex
+rubber -d lib
+mv lib.pdf ../pdf
 rm tmp.cpp
-rm getlatex biblioteca.aux biblioteca.toc biblioteca.out
-rm -f biblioteca.rubbercache
+rm getlatex lib.aux lib.toc lib.out
+rm -f lib.rubbercache
 
 pushd ../theoretical
 latexmk -pdf theoretical -outdir=../pdf
