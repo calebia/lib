@@ -1,7 +1,7 @@
 // Range color
 //
 // update(l, r, c) colore o range [l, r] com a cor c,
-// e retorna os ranges que foram coloridos {l, r, cor}
+// e retorna os ranges que foram alterados {l, r, cor}
 // query(i) returna a cor da posicao i
 //
 // Complexidades (para q operacoes):

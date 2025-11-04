@@ -1,8 +1,13 @@
 // RMQ <O(n), O(1)> - min queue
 //
 // O(n) pra buildar, query O(1)
-// Se tiver varios minimos, retorna
-// o de menor indice
+
+//- rmq(const vector<T>& v) 
+// vector<int> a = {5, 2, 4, 1, 3};
+// rmq<int> R(a);  // pré-processa o array
+
+//- query(l, r) Retorna o mínimo valor em a[l..r] em O(1).
+//- index_query(l, r) Retorna o índice do mínimo (com desempate pelo menor índice).
 
 template<typename T> struct rmq {
 	vector<T> v;

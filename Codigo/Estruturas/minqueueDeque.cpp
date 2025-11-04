@@ -1,5 +1,6 @@
 // Min queue - deque
-//
+// Muito usado em Sliding Window Minimum
+// uma fila que permite obter o mínimo elemento atual em tempo O(1)
 // Tudo O(1) amortizado
 
 template<class T> struct minqueue {

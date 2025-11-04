@@ -4,7 +4,11 @@
 // Para n ~ 2e5, roda em < 1 s
 //
 // O(n^1.58)
-
+/*
+Multiplica dois vetores a e b — interpretados como coeficientes de polinômios ou 
+dígitos — e retorna o vetor resultante da convolução
+ou, se for números grandes, o produto dos dois números.
+*/
 //#pragma GCC optimize("Ofast")
 //#pragma GCC target ("avx,avx2")
 template<typename T> void kar(T* a, T* b, int n, T* r, T* tmp) {

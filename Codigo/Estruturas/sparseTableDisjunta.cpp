@@ -1,11 +1,21 @@
 // Sparse Table Disjunta
 //
 // Resolve qualquer operacao associativa
+// Você precisa de query O(1) com op associativa (incluindo soma) e não terá updates.
+// Se for 100% estático e você quer velocidade máxima em query, DST.
 // MAX2 = log(MAX)
-//
-// Complexidades:
-// build - O(n log(n))
-// query - O(1)
+/*
+Se o seu vetor original tem tamanho n2, você deve preencher v[i] para i∈[n2..n-1] com o elemento neutro da sua op (senão acessa lixo).
+
+min: neutro é +INF;
+max: -INF;
+soma: 0;
+gcd: 0 (pois gcd(x,0)=x);
+AND: ~0 (todos 1);
+OR: 0;
+XOR: 0.
+*/
+// Complexidades: build - O(n log(n))  // query - O(1)
 
 namespace sparse {
 	int m[MAX2][2*MAX], n, v[2*MAX];

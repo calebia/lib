@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Provide default values
-: ${TEAMNAME:="Xerebêlerebébis"}
+: ${TEAMNAME:="L_Dies"}
 : ${MEMBERS:="Emanuel Silva, Bruno Monteiro \\& Rafael Grandsire"}
 : ${UNIVERSITY:="UFMG"}
 
